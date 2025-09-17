@@ -1,7 +1,7 @@
 -- Table of game IDs and their corresponding scripts
 -- Format: [GameID] = "rbxassetid://SCRIPT_ID"
 local gameScripts = {
-    [123821081589134] = "break bones",
+    [123821081589134] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/lcxXYZ/breakbonesTracer.hub/refs/heads/main/load"))()",
     [87700573492940] = "drill game",
     [11223344] = "rbxassetid://SCRIPT_ID_3",
     -- Add more game IDs and scripts here
