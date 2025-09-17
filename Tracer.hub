@@ -1,11 +1,11 @@
--- Table of game IDs and their corresponding scripts
+-- Table of game IDs and their corresponding scripts https://raw.githubusercontent.com/lcxXYZ/drillgam/refs/heads/main/loader
 -- Format: [GameID] = function() ... end
 local gameScripts = {
     [123821081589134] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/lcxXYZ/breakbonesTracer.hub/refs/heads/main/load"))()
     end,
     [87700573492940] = function()
-        print("Drill game loaded") -- Replace this with your actual script
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lcxXYZ/drillgam/refs/heads/main/loader"))()
     end,
     [11223344] = function()
         print("Script 3 loaded") -- Replace with actual script or loadstring
